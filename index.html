@@ -18,6 +18,12 @@
 
 
     <style>
+      .center {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
       .bd-placeholder-img {
         font-size: 1.125rem;
         text-anchor: middle;
@@ -42,27 +48,8 @@
     
 <header>
   <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-    <a class="navbar-brand" href="#">sesi</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarCollapse">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Notas</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled">Disabled</a>
-        </li>
-      </ul>
-      <form class="form-inline mt-2 mt-md-0">
-        <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-      </form>
-    </div>
+    <img src="img/sesi.png" class="bd-placeholder-img" width="200" height="50" />
+
   </nav>
 </header>
 
@@ -78,34 +65,13 @@
       <div class="carousel-item active">
         <img src="img/18anos.jpg"  class="bd-placeholder-img" width="100%" height="100%" />
         <div class="container">
-          <div class="carousel-caption text-left">
-            <h1 class="text-center">18 Anos</h1>
-            <p class="text-center"> veja nosso video institucional</p>
-            <p class="text-center"><a class="btn btn-lg btn-primary" href="#" >Clique aqui</a></p>
-          </div>
         </div>
       </div>
       <div class="carousel-item">
-        <img src="img/lista.png"  class="bd-placeholder-img" width="100%" height="100%" />
-
-        <div class="container">
-          <div class="carousel-caption">
-            <h1>Lista de materiais</h1>
-            <p>Ano letivo 2023</p>
-            <p><a class="btn btn-lg btn-primary" href="#">confira aqui</a></p>
-          </div>
-        </div>
+        <img src="img/lista.jpg"  class="bd-placeholder-img" width="100%" height="100%" />
       </div>
       <div class="carousel-item">
         <img src="img/robotica.jpg"  class="bd-placeholder-img" width="100%" height="100%" />
-
-        <div class="container">
-          <div class="carousel-caption text-right">
-            <h1 class="text-center">Sports/Robótica</h1>
-            <p class="text-center">patrocinio</p>
-            <p class="text-center"><a class="btn btn-lg btn-primary" href="#">Clique aqui </a></p>
-          </div>
-        </div>
       </div>
     </div>
     <button class="carousel-control-prev" type="button" data-target="#myCarousel" data-slide="prev">
@@ -120,7 +86,7 @@
 
 
   <!-- Marketing messaging and featurettes
-  ================================================== -->
+  ==================================================ista-->
   <!-- Wrap the rest of the page in another container to center all the content. -->
 
   <div class="container marketing">
@@ -129,22 +95,22 @@
     <div class="row">
       
       <div class="col-lg-4">
-        <img src="img/tarefa.jpeg" class="bd-placeholder-img rounded-circle" width="140" height="140" />
+        <img src="img/tarefa.png" class="bd-placeholder-img " width="140" height="140" />
         <h2>Tarefas de casa</h2>
-        <p>TAREFAS DA OF.1 - OF.2 - OF.3 - OF.4</p>
-        <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+        <p>TAREFAS OF.1 - OF.2 - OF.3 - OF.4</p>
+        <p><a class="btn btn-secondary" href="#">clique aqui &raquo;</a></p>
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-4">
-        <img src="img/professor.png" class="bd-placeholder-img rounded-circle" width="140" height="140" />
-        <h2>Professores</h2>
-        <p>Conheça nossos Educadores</p>
-        <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+        <img src="img/professor.png" class="bd-placeholder-img " width="140" height="140" />
+        <h2>Lista de materiais</h2>
+        <p>Ano letivio 2023</p>
+        <p><a class="btn btn-secondary" href="#">clique aqui &raquo;</a></p>
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-4">
-        <img src="img/istagram.png" class="bd-placeholder-img rounded-circle" width="140" height="140" />
-        <h2>Istagram</h2>
-        <p>Visite nosso Perfil</p>
-        <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+        <img src="img/istagram.jpg" class="bd-placeholder-img   " width="140" height="140" />
+        <h2>Visite nossas redes</h2>
+        <p>siga-nos no istagram</p>
+        <p><a href="https://www.instagram.com/colegiosesiapucarana/" target="_blank"><a class="btn btn-secondary" href="#">clique aqui &raquo;</a></p></a>
       </div><!-- /.col-lg-4 -->
     </div><!-- /.row -->
 
@@ -155,7 +121,7 @@
 
     <div class="row featurette">
       <div class="col-md-7">
-        <h2 class="featurette-heading">ENSINO MÉDIO </h2>
+        <h2 class="featurette-heading" >ENSINO MÉDIO </h2>
         <p class="lead">No Colégio SESI, preparamos os alunos para serem protagonistas das suas escolhas e procuramos estar sempre por perto para apoiá-los quando necessário.
 Como o Novo Ensino Médio propõe uma formação mais voltada aos interesses e habilidades de cada aluno, nossos educadores estão prontos para orientá-los em relação aos itinerários formativos disponíveis.
           </p>
@@ -200,8 +166,8 @@ Como o Novo Ensino Médio propõe uma formação mais voltada aos interesses e h
 
   <!-- FOOTER -->
   <footer class="container">
-    <p class="float-right"><a href="#">Back to top</a></p>
-    <p>&copy; 2017-2022 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+    <p class="float-right"><a href="#">Ínicio </a></p>
+    <p>&copy; Gustavo Emanuel Cassins 2023 &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
   </footer>
 </main>
 
