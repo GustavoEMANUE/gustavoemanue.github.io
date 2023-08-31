@@ -1,3 +1,0 @@
-# gustavoemanu.github.io
-
-entrega
