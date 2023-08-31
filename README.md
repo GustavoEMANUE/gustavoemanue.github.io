@@ -1,2 +1,0 @@
-# gustavoemanue.github.io
-entrega
